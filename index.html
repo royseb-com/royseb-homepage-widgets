@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bienvenue - Welcome</title>
+</head>
+
+<body>
+	
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
+<!--
+Skype 'My status' button
+http://www.skype.com/go/skypebuttons
+-->
+<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+<a href="skype:royseb_com?call"><img src="http://mystatus.skype.com/smallclassic/royseb_com" style="border: none;" width="114" height="20" alt="My status" /></a>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 10,
+  interval: 30000,
+  width: 'auto',
+  height: 50,
+  theme: {
+    shell: {
+      background: '#333333',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#000000',
+      color: '#ffffff',
+      links: '#00f7ff'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    behavior: 'all'
+  }
+}).render().setUser('royseb_com').start();
+</script>
+
+<br>
+
+<div class="fb-like" data-href="http://www.royseb.com/" data-send="true" data-width="450" data-show-faces="true" data-font="verdana"></div>
+<p align="left"><a href="http://www.facebook.com/sebastien.royseb"><img name="facebook_button" src="images/facebook_button.png" width="65" height="25" alt=""></a></p>
+
+</body>
+</html>
