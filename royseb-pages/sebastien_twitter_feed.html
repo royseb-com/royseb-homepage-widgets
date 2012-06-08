@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta name="description" content="demoapp" />
+<meta name="keywords" content="royseb.com,HTML,CSS,XML,JavaScript" />
+<meta name="author" content="S&eacute;bastien Roy" />
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />	
+<title>sebastien's twitter feed</title>
+<link rel="shortcut icon" href="/images/Seb_16X16.jpg"> 
+</head>
+<body>
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 15,
+  interval: 30000,
+  width: 540,
+  height: 120,
+  theme: {
+    shell: {
+      background: '#333333',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#000000',
+      color: '#ffffff',
+      links: '#00f7ff'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    behavior: 'all'
+  }
+}).render().setUser('XXX').start();
+</script>
+</body>
+</html>

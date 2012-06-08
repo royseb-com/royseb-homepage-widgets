@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta name="description" content="demoapp" />
+	<meta name="keywords" content="royseb.com,HTML,CSS,XML,JavaScript" />
+	<meta name="author" content="S&eacute;bastien Roy" />
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<meta http-equiv="refresh" content="30" />
+	
+	<title>sebastien's page</title>
+	<link href="http://www.royseb.com/css/homeprofile.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="/images/Seb_16X16.jpg">
+
+		<script type="text/javascript">
+			function reloadPage()
+	  			{
+	  				window.location.reload()
+	  			}
+		</script>
+		
+		<script type="text/javascript"><!--
+		function ReplaceContentInContainer(id,content) {
+		var container = document.getElementById(id);
+		container.innerHTML = content;
+		}
+		//--></script>
+		
+		<script type="text/javascript"><!--
+		var containerID = "countdownaotoreloadframe";
+		var number = 30;
+		var timerID = setInterval("CountdownTimer()",1000);
+		function CountdownTimer() {
+		if(number > 1) {
+			number--;
+			ReplaceContentInContainer(containerID,number);
+			}
+		else {
+			clearInterval(timerID);
+			ReplaceContentInContainer(containerID,'auto reload frame');
+			}
+		}
+		//--></script>
+		
+	</head>
+
+
+<body>
+
+<input type="button" value="Reload frame" onclick="reloadPage()" />
+<br>
+<br>
+	<!--
+	Skype 'My status' button
+	http://www.skype.com/go/skypebuttons
+	-->
+	<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+	<a href="skype:royseb_com?call"><img src="http://mystatus.skype.com/smallclassic/royseb_com" style="border: none;" width="114" height="20" alt="Sébastien Roy's skype status" title="skype status: voice messaging service available for my contacts ..." /></a>
+	
+	<div 
+	   id="countdownaotoreloadframe" 
+	   style="border-style:no; 
+	          padding:1px; 
+	          font-size:10px; 
+	          width:200px; 
+	          text-align:left;">
+	auto refresh Skype's status
+	</div>
+	
+	<p align="left">
+		<a href="mailto:sebastien@royseb.com"><img id="Seb_200X200" src="../images/Seb_200X200.png" ismap="ismap" width="200" height="200" alt="sebastien's profile picture" title="Sébastien Roy's profile picture"></a>
+	</p>
+	
+	<p align="left">
+		<a href="http://ca.linkedin.com/pub/sébastien-roy/52/a17/819" target="_blank"><img id="linkedin_button" src="../images/linkedin_button.png" ismap="ismap" width="25" height="25" alt="linkedin profile" title="linkedin profile"></a>
+
+		<a href="https://github.com/royseb-com" target="_blank"><img id="Octocat" src="../images/Octocat.png" ismap="ismap" width="25" height="25" alt="github profile" title="github profile"></a>
+
+		<a href="https://twitter.com/#!/royseb_com" target="_blank"><img id="twitter_button" ismap="ismap" src="../images/twitter_button.png" width="25" height="25" alt="twitter profile" title="twitter profile"></a>
+
+		<a href="http://www.facebook.com/sebastien.royseb" target="_blank"><img id="facebook_button" src="../images/facebook_button.png" ismap="ismap" width="25" height="25" alt="facebook profile" title="facebook profile"></a>
+
+		<a href="https://plus.google.com/u/0/111962702020755971351/about" target="_blank"><img id="google_plus_button" src="../images/google_plus_button.png" ismap="ismap" width="25" height="25" alt="google+ profile" title="google+ profile"></a>
+	</p>
+
+</body>
+
+</html>

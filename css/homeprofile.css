@@ -1,0 +1,18 @@
+pre {
+white-space : pre-wrap;
+}
+body {
+color : #404040;
+font-family: Verdana, Futura, Times;
+font-size : 0.75em;
+}
+td {
+color : #404040;
+font-family: Verdana, Futura, Times;
+font-size : 0.75em;
+}
+th {
+color : #404040;
+font-family: Verdana, Futura, Times;
+font-size : 0.75em;
+}
