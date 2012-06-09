@@ -6,12 +6,12 @@ Beta version
 HTML5, CSS3, javasript
 ----------------------
 index page with widgets from Skype, Twitter and Facebook...
-*Facebook's like button functionalities incomplete ... coming!
+*Facebook's like button functionalities incomplete... coming!
 iframe freenode.net IRC embeded.
 
 *******************************************************************************************************
 
-Version Bêta:
+Version Bêta
 ----------------------
 HTML5, CSS3, javasript
 ----------------------
